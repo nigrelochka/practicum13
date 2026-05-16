@@ -1,4 +1,4 @@
-first_line = list(map(int, input().strip().split()))
+first_line = list(map(int, input().split()))
 second_line = int(input().strip())
 
 if first_line.count(second_line) > 1:
